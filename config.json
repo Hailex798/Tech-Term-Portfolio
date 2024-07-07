@@ -1,0 +1,48 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/Hailex798/Hailex798/master/README.md",
+  "title": "Hailex",
+  "name": "Kshitij Singh Bisht - Software Developer",
+  "ascii": "liveterm",
+  "social": {
+    "github": "https://github.com/hailex798",
+    "linkedin": "https://linkedin.com/kshitijsinghbisht"
+  },
+  "email": "kshitijsinghbisht777@gmail.com",
+  "ps1_hostname": "you",
+  "ps1_username": "visitor",
+  "repo": "https://github.com/Hailex798/LiveTerm",
+  "resume_url": "https://drive.google.com/file/d/1p34WBpFPFx3xmjuaHmt-Y76m3v_9duGa/view",
+  "portfolio" : "https://kshitijsinghbisht.netlify.app",
+  "donate_urls": {
+    "gpay": "upi://pay?pa=kshitijbsingh03feb-1@oksbi&pn=Kshitij%20Singh%20Bisht&am=100&cu=INR&tn=Service%20Payment"
+  },
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#3C3836",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#1c1c1c",
+      "foreground": "#EBDBB2",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#A89984",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "purp": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
