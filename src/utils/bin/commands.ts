@@ -2,6 +2,8 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
+import bannerImg from "../../assets/bannerImgX.jpg";
+
 
 // Help
 export const help = async (args: string[]): Promise<string> => {
@@ -146,12 +148,17 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-  ██╗  ██╗  █████╗  ██╗ ██╗      ███████╗ ██╗  ██╗
-  ██║  ██║ ██╔══██╗ ██║ ██║      ██╔════╝ ╚██╗██╔╝
-  ███████║ ███████║ ██║ ██║      █████╗    ╚███╔╝ 
-  ██╔══██║ ██╔══██║ ██║ ██║      ██╔══╝    ██╔██╗ 
-  ██║  ██║ ██║  ██║ ██║ ███████╗ ███████╗ ██╔╝ ██╗
-  ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝ ╚══════╝ ╚══════╝ ╚═╝  ╚═╝
+  <div style="display: inline-flex; align-items: center;">
+  <img style="margin-right: 1.5em; width:200px;" src=${bannerImg.src} />
+  ██╗  ██╗███████╗██╗  ██╗██╗████████╗██╗     ██╗    ███████╗██╗███╗   ██╗ ██████╗ ██╗  ██╗
+  ██║ ██╔╝██╔════╝██║  ██║██║╚══██╔══╝██║     ██║    ██╔════╝██║████╗  ██║██╔════╝ ██║  ██║
+  █████╔╝ ███████╗███████║██║   ██║   ██║     ██║    ███████╗██║██╔██╗ ██║██║  ███╗███████║
+  ██╔═██╗ ╚════██║██╔══██║██║   ██║   ██║██   ██║    ╚════██║██║██║╚██╗██║██║   ██║██╔══██║
+  ██║  ██╗███████║██║  ██║██║   ██║   ██║╚█████╔╝    ███████║██║██║ ╚████║╚██████╔╝██║  ██║
+  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝ ╚════╝     ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝
+                                                                                           
+                                                                                                                                   
+  </div>
                                              
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
